@@ -33,7 +33,7 @@ export class Accordion implements Base {
     return (
       
         <div class={this.getCssClassMap()}>
-
+          <slot></slot>
         </div>
       
     );
