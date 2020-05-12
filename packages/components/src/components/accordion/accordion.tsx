@@ -26,7 +26,8 @@ export class Accordion implements Base {
   componentWillUpdate() {}
   componentDidUnload() {}
 
-
+  @Method() expandPanel() {}
+  
   render() {
     // const { classes } = this.stylesheet;
 
